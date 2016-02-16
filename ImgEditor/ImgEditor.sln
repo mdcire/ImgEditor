@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgEditor", "ImgEditor\ImgEditor.vcxproj", "{EAEF74CB-5C7F-4BF2-B0F7-D6AFA994F778}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIO", "FileIO\FileIO.vcxproj", "{2911713C-D7A9-4C5D-B0E1-0B39F633FA44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UtilityFun", "UtilityFun\UtilityFun.vcxproj", "{734BABA9-00B5-4AFA-9F3F-9695D96D23FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEF74CB-5C7F-4BF2-B0F7-D6AFA994F778}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAEF74CB-5C7F-4BF2-B0F7-D6AFA994F778}.Debug|Win32.Build.0 = Debug|Win32
+		{EAEF74CB-5C7F-4BF2-B0F7-D6AFA994F778}.Release|Win32.ActiveCfg = Release|Win32
+		{EAEF74CB-5C7F-4BF2-B0F7-D6AFA994F778}.Release|Win32.Build.0 = Release|Win32
+		{2911713C-D7A9-4C5D-B0E1-0B39F633FA44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2911713C-D7A9-4C5D-B0E1-0B39F633FA44}.Debug|Win32.Build.0 = Debug|Win32
+		{2911713C-D7A9-4C5D-B0E1-0B39F633FA44}.Release|Win32.ActiveCfg = Release|Win32
+		{2911713C-D7A9-4C5D-B0E1-0B39F633FA44}.Release|Win32.Build.0 = Release|Win32
+		{734BABA9-00B5-4AFA-9F3F-9695D96D23FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{734BABA9-00B5-4AFA-9F3F-9695D96D23FA}.Debug|Win32.Build.0 = Debug|Win32
+		{734BABA9-00B5-4AFA-9F3F-9695D96D23FA}.Release|Win32.ActiveCfg = Release|Win32
+		{734BABA9-00B5-4AFA-9F3F-9695D96D23FA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

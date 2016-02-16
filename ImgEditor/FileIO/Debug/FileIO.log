@@ -1,0 +1,48 @@
+﻿生成启动时间为 2016/2/15 22:42:27。
+     1>项目“D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\FileIO\FileIO.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\FileIO.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\FileIO.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\FileIO.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FileIO.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FileIO.cpp ImgFileIO.cpp
+         ImgFileIO.cpp
+     1>c:\opencv-3.0.0\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv-3.0.0\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv-3.0.0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.cpp(11): warning C4273: “CImgFileIO::CImgFileIO”: dll 链接不一致
+                 d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.h(9) : 参见“{ctor}”的前一个定义
+     1>d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.cpp(15): warning C4273: “CImgFileIO::~CImgFileIO”: dll 链接不一致
+                 d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.h(11) : 参见“{dtor}”的前一个定义
+     1>d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.cpp(19): warning C4273: “CImgFileIO::CImgFileIO”: dll 链接不一致
+                 d:\workspace\imgeditor_workspace\imgeditor\fileio\imgfileio.h(10) : 参见“{ctor}”的前一个定义
+         FileIO.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\FileIO.res" FileIO.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.dll) does not match the Linker's OutputFile property value (D:\WorkSpace\ImgEditor_WorkSpace\WorkDir\FileIO.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\WorkDir\FileIO.dll" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib opencv_stitching300d.lib opencv_videostab300d.lib opencv_calib3d300d.lib opencv_features2d300d.lib opencv_objdetect300d.lib opencv_highgui300d.lib opencv_superres300d.lib opencv_videoio300d.lib opencv_imgcodecs300d.lib opencv_shape300d.lib opencv_photo300d.lib opencv_video300d.lib opencv_flann300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_core300d.lib IlmImfd.lib libwebpd.lib libtiffd.lib libjasperd.lib libpngd.lib opencv_hal300d.lib libjpegd.lib zlibd.lib /DEF:".\FileIO.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.lib" /MACHINE:X86 /DLL Debug\FileIO.res
+         Debug\FileIO.obj
+         Debug\ImgFileIO.obj
+         Debug\stdafx.obj
+            正在创建库 D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.lib 和对象 D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.exp
+         FileIO.vcxproj -> D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\Debug\FileIO.dll
+       PostBuildEvent:
+         xcopy /r /y ..\Debug\FileIO.lib ..\..\Lib
+         xcopy /r /y ImgFileIO.h ..\..\Include
+         :VCEnd
+         ..\Debug\FileIO.lib
+         复制了 1 个文件
+         D:ImgFileIO.h
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         正在删除文件“Debug\FileIO.unsuccessfulbuild”。
+         正在对“Debug\FileIO.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\WorkSpace\ImgEditor_WorkSpace\ImgEditor\FileIO\FileIO.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.76
